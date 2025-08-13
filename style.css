@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#1a1a1a, #2e2e2e);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 480px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e63956;
+}
+
+.game-card {
+  background: #222;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.game-card h3 {
+  margin: 0.5rem 0;
+}
+
+.play-btn, .fav-btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #00c853;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.fav-btn {
+  background: #ffd600;
+  color: black;
+}
+
+.favorites ul {
+  padding: 0;
+  list-style: none;
+}
+
+.favorites li {
+  background: #333;
+  margin: 0.3rem 0;
+  padding: 0.4rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
